@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{036E3DE1-9873-4D4B-87B8-D26870C44C4C}">
+	<children>
+		<child name="Prueba_Global_Variable" key="{080CBF83-5870-4E9E-8D23-6B2D30FD78DA}" path="Prueba_Global_Variable\Prueba_Global_Variable.mds" />
+	</children>
+	<testItems key="{33D44A65-D28B-4BEE-9CA4-AA5C836A7CC4}">
+		<children>
+			<testItem key="{080CBF83-5870-4E9E-8D23-6B2D30FD78DA}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{8416F1D0-A6CA-43F9-A9D9-04AF44105BA7}" />
+	<analysis key="{9D5ED2F6-1FB6-4A23-874F-E712DC803924}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

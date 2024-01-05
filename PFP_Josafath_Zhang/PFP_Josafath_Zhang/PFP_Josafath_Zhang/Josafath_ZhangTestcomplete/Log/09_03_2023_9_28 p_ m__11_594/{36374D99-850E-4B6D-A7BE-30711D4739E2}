@@ -1,0 +1,2695 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 50">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage18.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="87"/>
+					<Prp name="object right" type="I" value="1883"/>
+					<Prp name="click point x" type="I" value="1863"/>
+					<Prp name="object bottom" type="I" value="127"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/inventory.html&quot;).FindElement(&quot;//a[.='1']&quot;)"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="107"/>
+					<Prp name="object left" type="I" value="1843"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.103091956"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (20, 20) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/inventory.html&quot;).FindElement(&quot;//a[.='1']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="50"/>
+			<Prp name="date" type="D" value="45172.8947602083"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 58">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage21.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="386"/>
+					<Prp name="object right" type="I" value="1150"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="425"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-step-one.html&quot;).FindElement(&quot;[data-test='lastName']&quot;)"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="770"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1031092477"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'Vargas' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-step-one.html&quot;).FindElement(&quot;[data-test='lastName']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="58"/>
+			<Prp name="date" type="D" value="45172.8947809491"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 47">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="47"/>
+			<Prp name="date" type="D" value="45172.8947516204"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: agregar artículo al carrito"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 18">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="332"/>
+					<Prp name="object right" type="I" value="1150"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="371"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-step-one.html&quot;).FindElement(&quot;[data-test='firstName']&quot;)"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="770"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1029872801"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'Fitzal' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-step-one.html&quot;).FindElement(&quot;[data-test='firstName']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="date" type="D" value="45172.8946586458"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 15">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="489"/>
+					<Prp name="object right" type="I" value="1600"/>
+					<Prp name="click point x" type="I" value="1490"/>
+					<Prp name="object bottom" type="I" value="523"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/cart.html&quot;).FindElement(&quot;[data-test='checkout']&quot;)"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="506"/>
+					<Prp name="object left" type="I" value="1380"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1029828356"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (110, 17) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/cart.html&quot;).FindElement(&quot;[data-test='checkout']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="date" type="D" value="45172.8946508102"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 56">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage20.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="332"/>
+					<Prp name="object right" type="I" value="1150"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="371"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-step-one.html&quot;).FindElement(&quot;[data-test='firstName']&quot;)"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="770"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1031015278"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'Arelis' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-step-one.html&quot;).FindElement(&quot;[data-test='firstName']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="56"/>
+			<Prp name="date" type="D" value="45172.8947730671"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 45">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage16.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="379"/>
+					<Prp name="object right" type="I" value="1106"/>
+					<Prp name="click point x" type="I" value="960"/>
+					<Prp name="object bottom" type="I" value="428"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/&quot;).FindElement(&quot;[data-test='login-button']&quot;)"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="403"/>
+					<Prp name="object left" type="I" value="814"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1030813889"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (146, 24) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/&quot;).FindElement(&quot;[data-test='login-button']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="45"/>
+			<Prp name="date" type="D" value="45172.8947496296"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 28">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="28"/>
+			<Prp name="date" type="D" value="45172.8946856481"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito en: check complete"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 20">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="386"/>
+					<Prp name="object right" type="I" value="1150"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="425"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-step-one.html&quot;).FindElement(&quot;[data-test='lastName']&quot;)"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="770"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1029953472"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'Cucavante' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-step-one.html&quot;).FindElement(&quot;[data-test='lastName']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="date" type="D" value="45172.8946685995"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 29">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="29"/>
+			<Prp name="date" type="D" value="45172.8946863657"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: Back to home"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="date" type="D" value="45172.8946481713"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: Boton de checkout"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 60">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage22.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="440"/>
+					<Prp name="object right" type="I" value="1150"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="479"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-step-one.html&quot;).FindElement(&quot;[data-test='postalCode']&quot;)"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="770"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1031171065"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'507' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-step-one.html&quot;).FindElement(&quot;[data-test='postalCode']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="60"/>
+			<Prp name="date" type="D" value="45172.8947866782"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 22">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="440"/>
+					<Prp name="object right" type="I" value="1150"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="479"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-step-one.html&quot;).FindElement(&quot;[data-test='postalCode']&quot;)"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="770"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.103004838"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'3910' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-step-one.html&quot;).FindElement(&quot;[data-test='postalCode']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="date" type="D" value="45172.8946747338"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 23">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="date" type="D" value="45172.8946761111"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: Botón de continuar"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 71">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage26.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="97"/>
+					<Prp name="object right" type="I" value="40"/>
+					<Prp name="click point x" type="I" value="30"/>
+					<Prp name="object bottom" type="I" value="117"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/inventory.html&quot;).FindElement(&quot;#react-burger-menu-btn&quot;)"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="107"/>
+					<Prp name="object left" type="I" value="20"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1031382407"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (10, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/inventory.html&quot;).FindElement(&quot;#react-burger-menu-btn&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="71"/>
+			<Prp name="date" type="D" value="45172.894806412"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 78">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="78"/>
+			<Prp name="date" type="D" value="45172.8948345949"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: campo username"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 68">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage25.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="535"/>
+					<Prp name="object right" type="I" value="1040"/>
+					<Prp name="click point x" type="I" value="960"/>
+					<Prp name="object bottom" type="I" value="567"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-complete.html&quot;).FindElement(&quot;[data-test='back-to-products']&quot;)"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="551"/>
+					<Prp name="object left" type="I" value="880"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1031332986"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (80, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-complete.html&quot;).FindElement(&quot;[data-test='back-to-products']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="68"/>
+			<Prp name="date" type="D" value="45172.8948012384"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 55">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="55"/>
+			<Prp name="date" type="D" value="45172.8947670255"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: Input nombre"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 53">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage19.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="489"/>
+					<Prp name="object right" type="I" value="1600"/>
+					<Prp name="click point x" type="I" value="1490"/>
+					<Prp name="object bottom" type="I" value="523"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/cart.html&quot;).FindElement(&quot;[data-test='checkout']&quot;)"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="506"/>
+					<Prp name="object left" type="I" value="1380"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1030971296"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (110, 17) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/cart.html&quot;).FindElement(&quot;[data-test='checkout']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="53"/>
+			<Prp name="date" type="D" value="45172.8947650116"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 35">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="35"/>
+			<Prp name="date" type="D" value="45172.894696794"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: logout"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 100">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage37.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="676"/>
+					<Prp name="object right" type="I" value="1585"/>
+					<Prp name="click point x" type="I" value="1475"/>
+					<Prp name="object bottom" type="I" value="710"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-step-one.html&quot;).FindElement(&quot;[data-test='continue']&quot;)"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="693"/>
+					<Prp name="object left" type="I" value="1365"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1032361921"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (110, 17) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-step-one.html&quot;).FindElement(&quot;[data-test='continue']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="100"/>
+			<Prp name="date" type="D" value="45172.8949044329"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 101">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="101"/>
+			<Prp name="date" type="D" value="45172.8949050463"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito en: check overview"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="date" type="D" value="45172.894646794"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito en: Verificación ingreso al carrito"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 108">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="108"/>
+			<Prp name="date" type="D" value="45172.894915081"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: Botón menú"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="date" type="D" value="45172.8946196528"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: campo contraseña"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 59">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="59"/>
+			<Prp name="date" type="D" value="45172.8947829398"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: Input código postal"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="date" type="D" value="45172.8946078588"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: campo username"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 69">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="69"/>
+			<Prp name="date" type="D" value="45172.894801956"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito en: Página de home"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 40">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="40"/>
+			<Prp name="date" type="D" value="45172.8947228356"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: campo username"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 37">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="37"/>
+			<Prp name="date" type="D" value="45172.89470125"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito en: logout realizado"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 99">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="99"/>
+			<Prp name="date" type="D" value="45172.8949007292"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: Botón de continuar"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 33">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="97"/>
+					<Prp name="object right" type="I" value="40"/>
+					<Prp name="click point x" type="I" value="30"/>
+					<Prp name="object bottom" type="I" value="117"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/inventory.html&quot;).FindElement(&quot;#react-burger-menu-btn&quot;)"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="107"/>
+					<Prp name="object left" type="I" value="20"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1030267014"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (10, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/inventory.html&quot;).FindElement(&quot;#react-burger-menu-btn&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="33"/>
+			<Prp name="date" type="D" value="45172.8946945833"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 109">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage40.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="97"/>
+					<Prp name="object right" type="I" value="40"/>
+					<Prp name="click point x" type="I" value="30"/>
+					<Prp name="object bottom" type="I" value="117"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/inventory.html&quot;).FindElement(&quot;#react-burger-menu-btn&quot;)"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="107"/>
+					<Prp name="object left" type="I" value="20"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1032506366"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (10, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/inventory.html&quot;).FindElement(&quot;#react-burger-menu-btn&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="109"/>
+			<Prp name="date" type="D" value="45172.8949187269"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 82">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="82"/>
+			<Prp name="date" type="D" value="45172.8948586111"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: botón iniciar sesión"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 51">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="51"/>
+			<Prp name="date" type="D" value="45172.8947608796"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito en: Verificación ingreso al carrito"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 79">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage28.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="231"/>
+					<Prp name="object right" type="I" value="1106"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="270"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/&quot;).FindElement(&quot;[data-test='username']&quot;)"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="814"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1031687616"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'standard_user' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/&quot;).FindElement(&quot;[data-test='username']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="79"/>
+			<Prp name="date" type="D" value="45172.8948448495"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="date" type="D" value="45172.8946316435"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: botón iniciar sesión"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="date" type="D" value="45172.8946377778"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: agregar artículo al carrito"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 54">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="54"/>
+			<Prp name="date" type="D" value="45172.8947656829"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito en: página de checkout"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 70">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="70"/>
+			<Prp name="date" type="D" value="45172.8948031597"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: Botón menú"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 97">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="97"/>
+			<Prp name="date" type="D" value="45172.8948962037"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: Input código postal"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 107">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="107"/>
+			<Prp name="date" type="D" value="45172.8949140278"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito en: Página de home"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 52">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="52"/>
+			<Prp name="date" type="D" value="45172.8947618519"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: Boton de checkout"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 86">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage31.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="920"/>
+					<Prp name="object right" type="I" value="892"/>
+					<Prp name="click point x" type="I" value="812"/>
+					<Prp name="object bottom" type="I" value="954"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/inventory.html&quot;).FindElement(&quot;[data-test='add-to-cart-sauce-labs-onesie']&quot;)"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="937"/>
+					<Prp name="object left" type="I" value="732"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1031999884"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (80, 17) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/inventory.html&quot;).FindElement(&quot;[data-test='add-to-cart-sauce-labs-onesie']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="86"/>
+			<Prp name="date" type="D" value="45172.8948678819"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 30">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="535"/>
+					<Prp name="object right" type="I" value="1040"/>
+					<Prp name="click point x" type="I" value="960"/>
+					<Prp name="object bottom" type="I" value="567"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-complete.html&quot;).FindElement(&quot;[data-test='back-to-products']&quot;)"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="551"/>
+					<Prp name="object left" type="I" value="880"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1030215509"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (80, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-complete.html&quot;).FindElement(&quot;[data-test='back-to-products']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="30"/>
+			<Prp name="date" type="D" value="45172.8946896528"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 21">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="date" type="D" value="45172.8946703472"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: Input código postal"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 24">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="676"/>
+					<Prp name="object right" type="I" value="1585"/>
+					<Prp name="click point x" type="I" value="1475"/>
+					<Prp name="object bottom" type="I" value="710"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-step-one.html&quot;).FindElement(&quot;[data-test='continue']&quot;)"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="693"/>
+					<Prp name="object left" type="I" value="1365"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1030116551"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (110, 17) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-step-one.html&quot;).FindElement(&quot;[data-test='continue']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="date" type="D" value="45172.8946799884"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 113">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="113"/>
+			<Prp name="date" type="D" value="45172.8949251505"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito en: logout realizado"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{B34920B7-8986-4D0C-988D-1BC43C4A3C2E}"/>
+			<Prp name="unit 2" type="S" value="{49C7D540-CD7D-4A05-A979-75B6E5B6B060}"/>
+			<Prp name="unit 1" type="S" value="{BC96101F-A713-42BD-BC5F-667606CCB8EC}"/>
+		</Node>
+		<Node name="message 88">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage32.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="87"/>
+					<Prp name="object right" type="I" value="1883"/>
+					<Prp name="click point x" type="I" value="1863"/>
+					<Prp name="object bottom" type="I" value="127"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/inventory.html&quot;).FindElement(&quot;//a[.='1']&quot;)"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="107"/>
+					<Prp name="object left" type="I" value="1843"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1032040162"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (20, 20) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/inventory.html&quot;).FindElement(&quot;//a[.='1']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="88"/>
+			<Prp name="date" type="D" value="45172.8948721528"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 57">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="57"/>
+			<Prp name="date" type="D" value="45172.8947748148"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: Input apellido"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 39">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="URL: www.saucedemo.com&#xA;&#xA;Sys.Browser(&quot;chrome&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="39"/>
+			<Prp name="date" type="D" value="45172.8947211111"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Navigating to the www.saucedemo.com page."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 89">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="89"/>
+			<Prp name="date" type="D" value="45172.8948729514"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito en: Verificación ingreso al carrito"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 66">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="66"/>
+			<Prp name="date" type="D" value="45172.8947975926"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito en: check complete"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 83">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage30.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="379"/>
+					<Prp name="object right" type="I" value="1106"/>
+					<Prp name="click point x" type="I" value="960"/>
+					<Prp name="object bottom" type="I" value="428"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/&quot;).FindElement(&quot;[data-test='login-button']&quot;)"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="403"/>
+					<Prp name="object left" type="I" value="814"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1031936574"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (146, 24) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/&quot;).FindElement(&quot;[data-test='login-button']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="83"/>
+			<Prp name="date" type="D" value="45172.8948616898"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 63">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="63"/>
+			<Prp name="date" type="D" value="45172.8947918403"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito en: check overview"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 34">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="34"/>
+			<Prp name="date" type="D" value="45172.8946956019"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito en: Menú"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 95">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="95"/>
+			<Prp name="date" type="D" value="45172.8948866204"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: Input apellido"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="285"/>
+					<Prp name="object right" type="I" value="1106"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="324"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/&quot;).FindElement(&quot;[data-test='password']&quot;)"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="814"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1029544907"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'secret_sauce' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/&quot;).FindElement(&quot;[data-test='password']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="date" type="D" value="45172.8946298148"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 91">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage33.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="489"/>
+					<Prp name="object right" type="I" value="1600"/>
+					<Prp name="click point x" type="I" value="1490"/>
+					<Prp name="object bottom" type="I" value="523"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/cart.html&quot;).FindElement(&quot;[data-test='checkout']&quot;)"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="506"/>
+					<Prp name="object left" type="I" value="1380"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1032087732"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (110, 17) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/cart.html&quot;).FindElement(&quot;[data-test='checkout']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="91"/>
+			<Prp name="date" type="D" value="45172.8948768287"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 77">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="URL: www.saucedemo.com&#xA;&#xA;Sys.Browser(&quot;chrome&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="77"/>
+			<Prp name="date" type="D" value="45172.8948332986"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Navigating to the www.saucedemo.com page."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 49">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="49"/>
+			<Prp name="date" type="D" value="45172.8947565972"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: Hacer click al ícono del carrito"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 48">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage17.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="668"/>
+					<Prp name="object right" type="I" value="1447"/>
+					<Prp name="click point x" type="I" value="1367"/>
+					<Prp name="object bottom" type="I" value="702"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/inventory.html&quot;).FindElement(&quot;[data-test='add-to-cart-sauce-labs-fleece-jacket']&quot;)"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="685"/>
+					<Prp name="object left" type="I" value="1287"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1030871181"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (80, 17) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/inventory.html&quot;).FindElement(&quot;[data-test='add-to-cart-sauce-labs-fleece-jacket']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="48"/>
+			<Prp name="date" type="D" value="45172.8947553356"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 112">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage41.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="213"/>
+					<Prp name="object right" type="I" value="273"/>
+					<Prp name="click point x" type="I" value="132"/>
+					<Prp name="object bottom" type="I" value="254"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/inventory.html&quot;).FindElement(&quot;#logout_sidebar_link&quot;)"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="233"/>
+					<Prp name="object left" type="I" value="21"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1032563542"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (120, 20) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/inventory.html&quot;).FindElement(&quot;#logout_sidebar_link&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="112"/>
+			<Prp name="date" type="D" value="45172.894924456"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="URL: www.saucedemo.com&#xA;&#xA;Sys.Browser(&quot;chrome&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="date" type="D" value="45172.894605"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Navigating to the www.saucedemo.com page."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 46">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="46"/>
+			<Prp name="date" type="D" value="45172.8947503241"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito en: iniciar sesión"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 111">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="111"/>
+			<Prp name="date" type="D" value="45172.8949212037"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: logout"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 65">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage24.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="763"/>
+					<Prp name="object right" type="I" value="1600"/>
+					<Prp name="click point x" type="I" value="1490"/>
+					<Prp name="object bottom" type="I" value="797"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-step-two.html&quot;).FindElement(&quot;[data-test='finish']&quot;)"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="780"/>
+					<Prp name="object left" type="I" value="1380"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1031288773"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (110, 17) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-step-two.html&quot;).FindElement(&quot;[data-test='finish']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="65"/>
+			<Prp name="date" type="D" value="45172.8947967708"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 44">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="44"/>
+			<Prp name="date" type="D" value="45172.8947467593"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: botón iniciar sesión"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="231"/>
+					<Prp name="object right" type="I" value="1106"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="270"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/&quot;).FindElement(&quot;[data-test='username']&quot;)"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="814"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1029422685"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'standard_user' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/&quot;).FindElement(&quot;[data-test='username']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="date" type="D" value="45172.8946179167"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 74">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage27.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="213"/>
+					<Prp name="object right" type="I" value="276"/>
+					<Prp name="click point x" type="I" value="145"/>
+					<Prp name="object bottom" type="I" value="254"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/inventory.html&quot;).FindElement(&quot;#logout_sidebar_link&quot;)"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="233"/>
+					<Prp name="object left" type="I" value="24"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1031448264"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (123, 20) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/inventory.html&quot;).FindElement(&quot;#logout_sidebar_link&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="74"/>
+			<Prp name="date" type="D" value="45172.8948126968"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="date" type="D" value="45172.8946430671"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: Hacer click al ícono del carrito"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 72">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="72"/>
+			<Prp name="date" type="D" value="45172.8948071412"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito en: Menú"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 92">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="92"/>
+			<Prp name="date" type="D" value="45172.8948775926"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito en: página de checkout"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="date" type="D" value="45172.8946515857"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito en: página de checkout"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 42">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="42"/>
+			<Prp name="date" type="D" value="45172.8947353472"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: campo contraseña"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 67">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="67"/>
+			<Prp name="date" type="D" value="45172.8947983102"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: Back to home"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 104">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="104"/>
+			<Prp name="date" type="D" value="45172.8949099074"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito en: check complete"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 26">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="date" type="D" value="45172.8946821875"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: botón finish"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 102">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="102"/>
+			<Prp name="date" type="D" value="45172.8949062384"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: botón finish"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 36">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage13.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="213"/>
+					<Prp name="object right" type="I" value="262"/>
+					<Prp name="click point x" type="I" value="113"/>
+					<Prp name="object bottom" type="I" value="254"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/inventory.html&quot;).FindElement(&quot;#logout_sidebar_link&quot;)"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="233"/>
+					<Prp name="object left" type="I" value="10"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1030315856"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (120, 20) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/inventory.html&quot;).FindElement(&quot;#logout_sidebar_link&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="36"/>
+			<Prp name="date" type="D" value="45172.8946998495"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 84">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="84"/>
+			<Prp name="date" type="D" value="45172.894862419"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito en: iniciar sesión"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 31">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="31"/>
+			<Prp name="date" type="D" value="45172.8946904051"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito en: Página de home"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 73">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="73"/>
+			<Prp name="date" type="D" value="45172.8948078356"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: logout"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 93">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="93"/>
+			<Prp name="date" type="D" value="45172.8948787037"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: Input nombre"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 43">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage15.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="285"/>
+					<Prp name="object right" type="I" value="1106"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="324"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/&quot;).FindElement(&quot;[data-test='password']&quot;)"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="814"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1030695139"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'secret_sauce' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/&quot;).FindElement(&quot;[data-test='password']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="43"/>
+			<Prp name="date" type="D" value="45172.8947448264"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 110">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="110"/>
+			<Prp name="date" type="D" value="45172.8949194097"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito en: Menú"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 19">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="date" type="D" value="45172.8946607523"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: Input apellido"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 27">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="763"/>
+					<Prp name="object right" type="I" value="1600"/>
+					<Prp name="click point x" type="I" value="1490"/>
+					<Prp name="object bottom" type="I" value="797"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-step-two.html&quot;).FindElement(&quot;[data-test='finish']&quot;)"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="780"/>
+					<Prp name="object left" type="I" value="1380"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1030169213"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (110, 17) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-step-two.html&quot;).FindElement(&quot;[data-test='finish']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="27"/>
+			<Prp name="date" type="D" value="45172.8946848148"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 103">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage38.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="763"/>
+					<Prp name="object right" type="I" value="1600"/>
+					<Prp name="click point x" type="I" value="1490"/>
+					<Prp name="object bottom" type="I" value="797"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-step-two.html&quot;).FindElement(&quot;[data-test='finish']&quot;)"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="780"/>
+					<Prp name="object left" type="I" value="1380"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1032413542"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (110, 17) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-step-two.html&quot;).FindElement(&quot;[data-test='finish']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="103"/>
+			<Prp name="date" type="D" value="45172.8949093056"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 98">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage36.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="440"/>
+					<Prp name="object right" type="I" value="1150"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="479"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-step-one.html&quot;).FindElement(&quot;[data-test='postalCode']&quot;)"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="770"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1032303472"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'508' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-step-one.html&quot;).FindElement(&quot;[data-test='postalCode']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="98"/>
+			<Prp name="date" type="D" value="45172.894899375"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 75">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="75"/>
+			<Prp name="date" type="D" value="45172.8948133681"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito en: logout realizado"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 62">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage23.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="676"/>
+					<Prp name="object right" type="I" value="1585"/>
+					<Prp name="click point x" type="I" value="1475"/>
+					<Prp name="object bottom" type="I" value="710"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-step-one.html&quot;).FindElement(&quot;[data-test='continue']&quot;)"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="693"/>
+					<Prp name="object left" type="I" value="1365"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1031230208"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (110, 17) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-step-one.html&quot;).FindElement(&quot;[data-test='continue']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="62"/>
+			<Prp name="date" type="D" value="45172.8947911458"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 32">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="32"/>
+			<Prp name="date" type="D" value="45172.8946919444"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: Botón menú"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 94">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage34.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="332"/>
+					<Prp name="object right" type="I" value="1150"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="371"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-step-one.html&quot;).FindElement(&quot;[data-test='firstName']&quot;)"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="770"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1032129745"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'Camilo' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-step-one.html&quot;).FindElement(&quot;[data-test='firstName']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="94"/>
+			<Prp name="date" type="D" value="45172.8948847106"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="416"/>
+					<Prp name="object right" type="I" value="1447"/>
+					<Prp name="click point x" type="I" value="1367"/>
+					<Prp name="object bottom" type="I" value="450"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/inventory.html&quot;).FindElement(&quot;[data-test='add-to-cart-sauce-labs-bike-light']&quot;)"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="433"/>
+					<Prp name="object left" type="I" value="1287"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1029732639"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (80, 17) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/inventory.html&quot;).FindElement(&quot;[data-test='add-to-cart-sauce-labs-bike-light']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="date" type="D" value="45172.8946412731"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="87"/>
+					<Prp name="object right" type="I" value="1883"/>
+					<Prp name="click point x" type="I" value="1863"/>
+					<Prp name="object bottom" type="I" value="127"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/inventory.html&quot;).FindElement(&quot;//a[.='1']&quot;)"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="107"/>
+					<Prp name="object left" type="I" value="1843"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1029780671"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (20, 20) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/inventory.html&quot;).FindElement(&quot;//a[.='1']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="date" type="D" value="45172.8946459606"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 76">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="76"/>
+			<Prp name="date" type="D" value="45172.8948139815"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="8"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Test case: test3"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="date" type="D" value="45172.8946360301"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito en: iniciar sesión"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 41">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage14.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="231"/>
+					<Prp name="object right" type="I" value="1106"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="270"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/&quot;).FindElement(&quot;[data-test='username']&quot;)"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="814"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1030570023"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'standard_user' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/&quot;).FindElement(&quot;[data-test='username']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="41"/>
+			<Prp name="date" type="D" value="45172.8947333565"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 105">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="105"/>
+			<Prp name="date" type="D" value="45172.8949104514"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: Back to home"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="date" type="D" value="45172.8945839815"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="8"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Test case: test1"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 106">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage39.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="535"/>
+					<Prp name="object right" type="I" value="1040"/>
+					<Prp name="click point x" type="I" value="960"/>
+					<Prp name="object bottom" type="I" value="567"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-complete.html&quot;).FindElement(&quot;[data-test='back-to-products']&quot;)"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="551"/>
+					<Prp name="object left" type="I" value="880"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1032451968"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (80, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-complete.html&quot;).FindElement(&quot;[data-test='back-to-products']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="106"/>
+			<Prp name="date" type="D" value="45172.894913206"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 90">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="90"/>
+			<Prp name="date" type="D" value="45172.8948737963"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: Boton de checkout"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 38">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="38"/>
+			<Prp name="date" type="D" value="45172.8947018056"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="8"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Test case: test2"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 64">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="64"/>
+			<Prp name="date" type="D" value="45172.8947936343"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: botón finish"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 25">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="date" type="D" value="45172.894680625"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito en: check overview"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 87">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="87"/>
+			<Prp name="date" type="D" value="45172.8948691204"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: Hacer click al ícono del carrito"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 61">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="owner id" type="I" value="38"/>
+			<Prp name="id" type="I" value="61"/>
+			<Prp name="date" type="D" value="45172.8947880671"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: Botón de continuar"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="379"/>
+					<Prp name="object right" type="I" value="1106"/>
+					<Prp name="click point x" type="I" value="960"/>
+					<Prp name="object bottom" type="I" value="428"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/&quot;).FindElement(&quot;[data-test='login-button']&quot;)"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="403"/>
+					<Prp name="object left" type="I" value="814"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1029667361"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (146, 24) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/&quot;).FindElement(&quot;[data-test='login-button']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="date" type="D" value="45172.8946353125"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 80">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="80"/>
+			<Prp name="date" type="D" value="45172.8948470949"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: campo contraseña"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 17">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="date" type="D" value="45172.8946530324"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: Input nombre"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 96">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage35.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="386"/>
+					<Prp name="object right" type="I" value="1150"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="425"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-step-one.html&quot;).FindElement(&quot;[data-test='lastName']&quot;)"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="770"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1032208681"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'Gonzales' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/checkout-step-one.html&quot;).FindElement(&quot;[data-test='lastName']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="96"/>
+			<Prp name="date" type="D" value="45172.8948938542"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 85">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="85"/>
+			<Prp name="date" type="D" value="45172.8948643056"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Exito con: agregar artículo al carrito"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 81">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage29.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="285"/>
+					<Prp name="object right" type="I" value="1106"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="324"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/&quot;).FindElement(&quot;[data-test='password']&quot;)"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="814"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45173.1031811921"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'secret_sauce' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.saucedemo.com/&quot;).FindElement(&quot;[data-test='password']&quot;)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="owner id" type="I" value="76"/>
+			<Prp name="id" type="I" value="81"/>
+			<Prp name="date" type="D" value="45172.8948567593"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,36 @@
+﻿
+function findDOMElements(xpath, context) {
+
+  let page = Sys.Browser("chrome").Page("*");
+  count=0;
+      
+  do {
+    
+  let domElement = page.FindChildByXPath(xpath);
+  count++;
+    
+  }while(addToCartBtn==null && count<5)
+      
+  //Verificar si existe el elemento
+  if(addToCartBtn){
+    Log.Checkpoint(context.success);
+    addToCartBtn.Click();
+  }else {
+    Log.Error(context.error);
+  }
+}
+    
+function checkIfExists(element, context) {
+
+  // Verificación de ingreso al carrito  
+  let cartTitle = page.WaitElement(element, 100);
+
+  if(cartTitle.Exists) {
+    Log.Checkpoint(context.success);
+  }else {
+    Log.Error(context.error); 
+  }
+}
+
+module.exports.findDOMElements = findDOMElements;
+module.exports.checkIfExists = checkIfExists;

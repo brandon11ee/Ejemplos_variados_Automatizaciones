@@ -1,0 +1,14 @@
+[1228/103523.656:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[1228/103525.808:WARNING:dxgi_swap_chain_image_backing.cc(205)] First draw to surface should draw to everything
+[1228/103744.539:INFO:CONSOLE(1)] "[bugsnag] Loaded!", source: https://profile.id.smartbear.com/_next/static/chunks/pages/_app-d4fe6fff189c42e1.js (1)
+[1228/103745.284:WARNING:browser_info.cc(309)] Returning a speculative frame for 38654705669 [9,5]
+[1228/103745.424:WARNING:browser_info.cc(309)] Returning a speculative frame for 38654705669 [9,5]
+[1228/103745.424:WARNING:browser_info.cc(309)] Returning a speculative frame for 38654705669 [9,5]
+[1228/103745.424:WARNING:browser_info.cc(309)] Returning a speculative frame for 38654705669 [9,5]
+[1228/103745.424:WARNING:browser_info.cc(309)] Returning a speculative frame for 38654705669 [9,5]
+[1228/103843.515:INFO:CONSOLE(1)] "[bugsnag] Loaded!", source: https://manage.smartbear.com/_next/static/chunks/pages/_app-b5131e4c0cc915b8.js (1)
+[1228/103843.814:INFO:CONSOLE(1)] "Ver. : 1.60.0-00", source: https://manage.smartbear.com/_next/static/chunks/pages/_app-b5131e4c0cc915b8.js (1)
+[1228/103844.368:WARNING:spdy_session.cc(3198)] Received HEADERS for invalid stream 1
+[1228/115547.356:WARNING:dns_config_service_win.cc(583)] Failed to read DnsConfig.
+[1228/134243.253:WARNING:dns_config_service_win.cc(583)] Failed to read DnsConfig.
+[1228/144154.544:WARNING:dns_config_service_win.cc(583)] Failed to read DnsConfig.

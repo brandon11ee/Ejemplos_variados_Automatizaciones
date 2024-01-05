@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Failed to get a value from the DB Table variable due to the following error:..."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="45172.731507419"/>
+						<Prp name="durationwithoutchildren" type="I" value="141005"/>
+						<Prp name="name" type="S" value="test1"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBDADcARgBCADEAQgBCAEYALQAzADgAMgAxAC0ANABFAEYANAAtAEEARQBFADUALQAzAEQAOAA1AEYANwBEADgAQwBGADAAQwB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwAAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="duration" type="I" value="141005"/>
+					</Node>
+				</Node>
+				<Prp name="failedtests" type="I" value="1"/>
+				<Prp name="starttime" type="D" value="45172.731507419"/>
+				<Prp name="name" type="S" value="Josafath_ZhangTestcomplete"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="duration" type="I" value="141005"/>
+			</Node>
+		</Node>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="key" type="S" value="{606E82F6-A550-48BA-A6D0-4A5F9AE7A193}"/>
+		<Prp name="stop" type="D" value="45172.733143206"/>
+		<Prp name="starttime" type="D" value="45172.7315013773"/>
+		<Prp name="host" type="S" value="STAND-TWICE"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="user" type="S" value="stand-twice"/>
+		<Prp name="name" type="S" value="Josafath_ZhangTestcomplete"/>
+		<Prp name="failedtests" type="I" value="1"/>
+		<Prp name="testname" type="S" value=""/>
+		<Prp name="tests" type="I" value="1"/>
+	</Node>
+</Nodes>

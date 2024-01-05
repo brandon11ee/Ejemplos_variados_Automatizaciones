@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Login" key="{6E326437-E091-4F96-A894-1AB7A72AFC5B}" path="Login.js" />
+		<child name="Form" key="{D7E93A68-CA5A-4CC2-9129-3A9D90B2BFB4}" path="Form.js" />
+		<child name="Cart" key="{24EF0615-82EA-49F6-B8E3-EC75AFA27100}" path="Cart.js" />
+		<child name="LogOut" key="{A4BD792B-25A9-4EE8-94C8-9B94A5F2BCC7}" path="LogOut.js" />
+		<child name="CheckOut" key="{F25520BF-0E0F-40CC-8CEE-804AF440593F}" path="CheckOut.js" />
+		<child name="StartScenario" key="{B34920B7-8986-4D0C-988D-1BC43C4A3C2E}" path="StartScenario.js" />
+		<child name="EndScenario" key="{D14A0C06-5A06-4108-9F9E-2D86913065CC}" path="EndScenario.js" />
+		<child name="Home" key="{F3FD0F15-FCA4-4BB8-A6A1-76B8182FC6EF}" path="Home.js" />
+		<child name="utilsMethods" key="{49C7D540-CD7D-4A05-A979-75B6E5B6B060}" path="utilsMethods.js" />
+	</children>
+</Root>

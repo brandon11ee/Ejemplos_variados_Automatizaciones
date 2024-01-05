@@ -1,0 +1,4 @@
+ESCENARIO,user,password,productoXpath,name,lastname,zip
+test1,standard_user,secret_sauce,//*[@id='add-to-cart-sauce-labs-bike-light'],Fitzal,Cucavante,3910
+test2,standard_user,secret_sauce,//*[@id='add-to-cart-sauce-labs-fleece-jacket'],Arelis,Vargas,507
+test3,standard_user,secret_sauce,//*[@id='add-to-cart-sauce-labs-onesie'],Camilo,Gonzales,508

@@ -1,0 +1,12 @@
+﻿function Unit1()
+{
+  var page = Sys.Browser("chrome").Page("*")
+  Sys.Browser().BrowserWindow(0).Maximize()
+  
+  var titulo = page.WaitElement("//div[@class='login_password']//h4");
+  Log.Message(Project.Variables.Titulo)
+  
+  Project.Variables.Titulo=titulo.innerText
+  
+  Log.Message(Project.Variables.Titulo)
+}

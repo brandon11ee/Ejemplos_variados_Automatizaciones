@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{5DD9E1C1-F06B-456D-9EC7-D74C8378D6F2}">
+	<children>
+		<child name="Josafath_ZhangTestcomplete" key="{9347E813-4445-452C-A1AA-3BB0427B7482}" path="Josafath_ZhangTestcomplete\Josafath_ZhangTestcomplete.mds" />
+	</children>
+	<testItems key="{980F5EBB-5952-42FF-B0AF-37231F31C065}">
+		<children>
+			<testItem key="{9347E813-4445-452C-A1AA-3BB0427B7482}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{DAE7ECDF-7588-4A62-AB2B-0114185266B7}" />
+	<analysis key="{FDBDC8BB-64B2-4905-AF35-F94FCC8AD81A}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

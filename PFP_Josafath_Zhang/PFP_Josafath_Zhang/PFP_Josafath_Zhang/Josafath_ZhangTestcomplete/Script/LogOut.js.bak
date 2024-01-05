@@ -1,0 +1,66 @@
+﻿let find = require("utilsMethods");
+
+function logout() {
+  
+  //Cliquear el botón menú
+  find.clickDOMElements("//*[@id='react-burger-menu-btn']", "Botón menú");
+   //Verificar estar en menu
+   find.checkIfExists("//*[@id='menu_button_container']/div/div[2]/div[1]", "Menú");
+   //Cliquear botón de logout
+   find.clickDOMElements("//*[@id='logout_sidebar_link']", "logout");
+   //Verificar que efectivamente se realizó logout
+   find.checkIfExists("//*[@id='root']/div/div[2]", "logout realizado");
+}
+
+function logout()
+{
+ var page = Sys.Browser("chrome").Page("*");
+ //Busqueda del Boton menu
+  min=0;
+  do{
+    var Boton_menu = page.FindChildByXPath("//*[@id='react-burger-menu-btn']")
+    min++
+  }while(Boton_menu==null && min<5)
+  //*[@id="react-burger-menu-btn"]
+  //Verificacion
+  if(Boton_menu){
+    Log.Checkpoint("Se encontro el Boton de menu")
+    Boton_menu.Click();
+  }else{
+    Log.Error("No se encontro el Boton de menu")
+  }
+  
+  //VERIFICACION DE LOGIN
+  var Titulo_Menu = page.WaitElement("//*[@id='menu_button_container']/div/div[2]/div[1]",100)
+  
+  if(Titulo_Menu.Exists){
+    Log.Checkpoint("Login Realizado Correctamente")
+  }else{
+    Log.Error("No se realizo el Login")
+  }
+  
+   //Buscar el boton de logout
+  min= 0;
+  do{
+    var Boton_logout = page.FindChildByXPath("//*[@id='logout_sidebar_link']")
+    min++;
+  }while(Boton_logout==null && min<5)
+  
+   //Verificacion
+  if(Boton_logout.Exists){
+    Log.Checkpoint("Se encontro el botón de logout")
+    Boton_logout.Click();
+  }else{
+    Log.Error("No se encontro el botón de logout")
+  }
+ 
+  // verificación del logout
+  var Titulo_logout = page.WaitElement("//*[@id='root']/div/div[2]",100)
+  
+  if(Titulo_logout.Exists){
+    Log.Checkpoint("Se realizo el 'logout'")
+  }else{
+    Log.Error("No se realizo el 'logout'")
+  }
+  
+}
